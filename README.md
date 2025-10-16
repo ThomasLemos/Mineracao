@@ -1,8 +1,11 @@
 ## Replicação da Metodologia de Geração de Perguntas de Inferência
 ---
+
 ## Objetivo e Contexto Científico
+
 Este projeto replica a metodologia de Geração Automática de Perguntas de Inferência Controlada (Controlled Inference Question Generation), 
 investigando a capacidade de um Large Language Model (LLM) de gerar itens de Compreensão de Leitura (RC) que alvo um tipo de inferência específico (pronominal bridging), usando técnicas avançadas de prompting.
+
 ---
 
 ## Fluxo Metodológico Replicado
@@ -39,7 +42,9 @@ Métrica de Sucesso: A Acurácia do Tipo de Inferência é determinada pela comp
 
 4. **Armazenamento dos resultados**  
 Os resultados são salvos em formato JSON, como mostrado em `example_qg_classification_result_phi3.json`.
+
 --
+
 ## Análise de Resultados e Observações
 O arquivo de saída (example_qg_classification_result_phi3.json) permite analisar as seguintes métricas, que refletem os achados do artigo base:
 
