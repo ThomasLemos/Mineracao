@@ -1,0 +1,19 @@
+{
+  "target_inference_type": "pronominal bridging",
+  "context_snippet": "once upon a time there was a king who went forth into the world and fetched back a beautiful queen . and after they had been married a while god gave them a little daughter . then there was great rejoicing in the city and throughout the country , for the people wished their king all that was good , since he was kind and just . while the child lay in its cradle , a strange - looking old woman entered the room , and no one knew who she was nor whence she came . the old woman spoke a verse over the child , and said that she must not be allowed out under the open sky until she were full fifteen years of age , since otherwise the mountain troll would fetch her . when the king heard this he took her words to heart , and posted guards to watch over the little princess so that she would not get out under the open sky .",
+  "expected_answer": "the people wished their king all that was good .",
+  "input_prompt_full": "<|user|>\n[INSTRUCTION]\nTASK: Generate a multiple-choice question for 'pronominal bridging' inference type.\nRULES: The output must adhere strictly to the format: NEW_TYPE, REASONING, QUESTION, OPTIONS.\n\nExample:\nTYPE: pronominal bridging\nCONTEXT: A greenhouse is a building where plants such as flowers and vegetables are grown. It usually has a glass or translucent plastic roof.\nANSWER: greenhouses\nREASONING: The pronoun 'it' refers to 'greenhouse' in the previous sentence, bridging the concepts.\nQUESTION: According to the passage, what can have translucent plastic roofs?\nOPTIONS: backyards; living spaces; greenhouses; botanic gardens\n\nNEW_CONTEXT: {context}\nNEW_ANSWER: {answer}\nNEW_TYPE: pronominal bridging\nREASONING: (Generate the reasoning for the new question here)\nQUESTION: (Generate the question stem here)\nOPTIONS: (Generate 4 options, separated by semicolons)\n<|end|><|assistant|>",
+  "generated_question_stem_rq1": "NEW_CONTEXT: A smartphone is a mobile device that allows users to make calls, send messages, and access the internet. It typically has a touchscreen interface.\nNEW_ANSWER: smartphones\nREASONING: The pronoun 'it' refers to'smartphone' in the previous sentence, bridging the concepts.\nQUESTION: According to the passage, what typically has a touchscreen interface?\nOPTIONS: tablets; desktop computers; smartphones; e-readers",
+  "generated_reasoning_cot_rq3": "Parsing Geral Falhou.",
+  "classification_model": "curious008/BertForStorySkillClassification",
+  "predicted_skill_label_rq2": "Character",
+  "probabilities_by_class": {
+    "Character": 0.18192632496356964,
+    "Setting": 0.14764387905597687,
+    "Feeling": 0.16268812119960785,
+    "Action": 0.1086689829826355,
+    "Causal Relationship": 0.08534467965364456,
+    "Outcome Resolution": 0.1625954657793045,
+    "Prediction": 0.15113253891468048
+  }
+}
