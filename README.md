@@ -7,6 +7,11 @@ Este projeto replica a metodologia de Geração Automática de Perguntas de Infe
 investigando a capacidade de um Large Language Model (LLM) de gerar itens de Compreensão de Leitura (RC) que alvo um tipo de inferência específico (pronominal bridging), usando técnicas avançadas de prompting.
 
 ---
+## Informação sobre o codigo
+
+Ambos codigos Scrpits foram feito para rodar no Colab no ambiente T4, o script MineracaoGeracaoDePergunta vai rodar o codigo e gerar a primeira pergunta do csv e o MineracaoGeracaoDePerguntaVar tem uma linha na celula 4 para modificar a quantidade de perguntas geradas MAX_EXAMPLES_TO_PROCESS = 5.
+
+---
 
 ## Fluxo Metodológico Replicado
 O experimento segue o fluxo de trabalho de prompting e avaliação proposto.
